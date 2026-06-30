@@ -1,0 +1,28 @@
+.hero_content {
+  margin-top: 70px;
+}
+
+.hero_content span {
+  font-size: 1.1rem;
+}
+
+.hero_subtitle {
+  margin-right: 150px;
+}
+
+.hero_img {
+  margin: auto;
+  width: 25rem;
+  height: 25rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_content {
+    margin: auto;
+  }
+
+  .hero_img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
